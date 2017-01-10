@@ -1,0 +1,12 @@
+If you would like to create a 'custom' page of your own on the site, follow these steps:
+1) Create a new file in the root directory, title it "YOURPAGENAME.php"
+2) Add the following code into the file, changing "MY Page" and "mypage" to whatever you want to call it:
+<? $CUSTOMNAME = "My Page";?>		// no tabs or spaces!
+<? $CUSTOMFILENAME = "mypage";?>	//must be same as filename
+3) Then copy and paste this (don't change it)
+<?  require('includes/custompage.php');?>
+4) Go to /mypage and it should be a blank page with the header
+5) Start adding content!
+6) When your done, call the footer
+		<?  require('includes/custompagefooter.php');?>
+7) That's it!

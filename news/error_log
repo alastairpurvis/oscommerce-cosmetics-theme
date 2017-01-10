@@ -1,0 +1,220 @@
+[12-Dec-2010 17:14:31] PHP Fatal error:  Call to a member function add_current_page() on a non-object in /home/skinnu5/public_html/includes/application_top.php on line 351
+[14-Dec-2010 13:13:03] PHP Fatal error:  Call to a member function add_current_page() on a non-object in /home/skinnu5/public_html/includes/application_top.php on line 351
+[14-Dec-2010 13:17:32] PHP Fatal error:  Call to a member function add_current_page() on a non-object in /home/skinnu5/public_html/includes/application_top.php on line 351
+[14-Dec-2010 19:39:08] PHP Fatal error:  Call to a member function add_current_page() on a non-object in /home/skinnu5/public_html/includes/application_top.php on line 351
+[27-Dec-2010 00:55:44] PHP Fatal error:  Call to a member function add_current_page() on a non-object in /home/skinnu5/public_html/includes/application_top.php on line 351
+[27-Dec-2010 00:57:08] PHP Fatal error:  Call to a member function add_current_page() on a non-object in /home/skinnu5/public_html/includes/application_top.php on line 351
+[07-Jan-2011 19:57:19] WordPress database error MySQL server has gone away for query UPDATE `wp_options` SET `option_value` = 'a:5:{i:1294429150;a:2:{s:17:\"wp_update_plugins\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:16:\"wp_update_themes\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}}i:1294429158;a:1:{s:19:\"wp_scheduled_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1294455631;a:1:{s:24:\"akismet_scheduled_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1294472350;a:2:{s:16:\"wp_version_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:17:\"wp_update_plugins\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}}s:7:\"version\";i:2;}' WHERE `option_name` = 'cron' made by call_user_func_array, wp_reschedule_event, wp_schedule_event, _set_cron_array, update_option
+[07-Jan-2011 19:57:20] WordPress database error MySQL server has gone away for query UPDATE `wp_options` SET `option_value` = 'a:5:{i:1294429150;a:1:{s:16:\"wp_update_themes\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}}i:1294429158;a:1:{s:19:\"wp_scheduled_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1294455631;a:1:{s:24:\"akismet_scheduled_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1294472350;a:2:{s:16:\"wp_version_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:17:\"wp_update_plugins\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}}s:7:\"version\";i:2;}' WHERE `option_name` = 'cron' made by wp_unschedule_event, _set_cron_array, update_option
+[07-Jan-2011 19:57:20] WordPress database error MySQL server has gone away for query UPDATE `wp_options` SET `option_value` = 'a:5:{i:1294429150;a:1:{s:16:\"wp_update_themes\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}}i:1294429158;a:1:{s:19:\"wp_scheduled_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1294455631;a:1:{s:24:\"akismet_scheduled_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1294472350;a:3:{s:16:\"wp_version_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:17:\"wp_update_plugins\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:16:\"wp_update_themes\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}}s:7:\"version\";i:2;}' WHERE `option_name` = 'cron' made by call_user_func_array, wp_reschedule_event, wp_schedule_event, _set_cron_array, update_option
+[07-Jan-2011 19:57:20] WordPress database error MySQL server has gone away for query UPDATE `wp_options` SET `option_value` = 'a:4:{i:1294429158;a:1:{s:19:\"wp_scheduled_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1294455631;a:1:{s:24:\"akismet_scheduled_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1294472350;a:3:{s:16:\"wp_version_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:17:\"wp_update_plugins\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:16:\"wp_update_themes\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}}s:7:\"version\";i:2;}' WHERE `option_name` = 'cron' made by wp_unschedule_event, _set_cron_array, update_option
+[07-Jan-2011 19:57:20] WordPress database error MySQL server has gone away for query UPDATE `wp_options` SET `option_value` = 'O:8:\"stdClass\":1:{s:12:\"last_checked\";i:1294430240;}' WHERE `option_name` = '_site_transient_update_themes' made by do_action_ref_array, call_user_func_array, wp_update_themes, set_site_transient, update_site_option, update_option
+[07-Jan-2011 19:57:50] WordPress database error MySQL server has gone away for query UPDATE `wp_options` SET `option_value` = 'a:5:{i:1294429158;a:1:{s:19:\"wp_scheduled_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1294455631;a:1:{s:24:\"akismet_scheduled_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1294472350;a:3:{s:16:\"wp_version_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:17:\"wp_update_plugins\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:16:\"wp_update_themes\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}}i:1294515558;a:1:{s:19:\"wp_scheduled_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}s:7:\"version\";i:2;}' WHERE `option_name` = 'cron' made by call_user_func_array, wp_reschedule_event, wp_schedule_event, _set_cron_array, update_option
+[07-Jan-2011 19:57:50] WordPress database error MySQL server has gone away for query UPDATE `wp_options` SET `option_value` = 'a:4:{i:1294455631;a:1:{s:24:\"akismet_scheduled_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1294472350;a:3:{s:16:\"wp_version_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:17:\"wp_update_plugins\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:16:\"wp_update_themes\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}}i:1294515558;a:1:{s:19:\"wp_scheduled_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}s:7:\"version\";i:2;}' WHERE `option_name` = 'cron' made by wp_unschedule_event, _set_cron_array, update_option
+[07-Jan-2011 19:57:50] WordPress database error MySQL server has gone away for query SELECT post_id FROM wp_postmeta WHERE meta_key = '_wp_trash_meta_time' AND meta_value < '1291838270' made by do_action_ref_array, call_user_func_array, wp_scheduled_delete
+[07-Jan-2011 19:57:50] WordPress database error MySQL server has gone away for query SELECT comment_id FROM wp_commentmeta WHERE meta_key = '_wp_trash_meta_time' AND meta_value < '1291838270' made by do_action_ref_array, call_user_func_array, wp_scheduled_delete
+[10-Jan-2011 01:21:31] PHP Fatal error:  Call to a member function add_current_page() on a non-object in /home/skinnu5/public_html/includes/application_top.php on line 351
+[10-Jan-2011 11:59:21] PHP Fatal error:  Call to a member function add_current_page() on a non-object in /home/skinnu5/public_html/includes/application_top.php on line 351
+[24-Jan-2011 05:27:59] PHP Fatal error:  Call to a member function add_current_page() on a non-object in /home/skinnu5/public_html/includes/application_top.php on line 351
+[12-Feb-2011 09:05:12] PHP Fatal error:  Call to a member function add_current_page() on a non-object in /home/skinnu5/public_html/includes/application_top.php on line 351
+[12-Feb-2011 19:29:56] PHP Fatal error:  Call to a member function add_current_page() on a non-object in /home/skinnu5/public_html/includes/application_top.php on line 351
+[13-Feb-2011 03:16:06] PHP Fatal error:  Call to a member function add_current_page() on a non-object in /home/skinnu5/public_html/includes/application_top.php on line 351
+[13-Feb-2011 17:54:32] PHP Fatal error:  Call to a member function add_current_page() on a non-object in /home/skinnu5/public_html/includes/application_top.php on line 351
+[13-Feb-2011 22:40:02] PHP Fatal error:  Call to a member function add_current_page() on a non-object in /home/skinnu5/public_html/includes/application_top.php on line 351
+[14-Feb-2011 05:11:21] PHP Fatal error:  Call to a member function add_current_page() on a non-object in /home/skinnu5/public_html/includes/application_top.php on line 351
+[19-Feb-2011 11:36:49] PHP Fatal error:  Call to a member function add_current_page() on a non-object in /home/skinnu5/public_html/includes/application_top.php on line 351
+[20-Feb-2011 23:32:25] PHP Fatal error:  Call to a member function add_current_page() on a non-object in /home/skinnu5/public_html/includes/application_top.php on line 351
+[04-Mar-2011 12:56:06] PHP Fatal error:  Call to a member function add_current_page() on a non-object in /home/skinnu5/public_html/includes/application_top.php on line 351
+[14-Mar-2011 05:49:23] PHP Fatal error:  Call to a member function add_current_page() on a non-object in /home/skinnu5/public_html/includes/application_top.php on line 351
+[16-Mar-2011 02:48:30] PHP Fatal error:  Call to a member function add_current_page() on a non-object in /home/skinnu5/public_html/includes/application_top.php on line 351
+[27-Mar-2011 17:49:31] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[27-Mar-2011 19:06:22] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[27-Mar-2011 19:11:13] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[27-Mar-2011 19:11:14] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[27-Mar-2011 19:42:09] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[27-Mar-2011 20:22:40] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[28-Mar-2011 02:38:06] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[28-Mar-2011 02:39:00] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[28-Mar-2011 02:57:56] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[28-Mar-2011 04:05:15] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[28-Mar-2011 04:36:00] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[28-Mar-2011 06:06:07] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[28-Mar-2011 06:21:00] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[28-Mar-2011 07:25:21] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[28-Mar-2011 08:06:48] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[28-Mar-2011 08:10:47] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[28-Mar-2011 10:29:17] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[28-Mar-2011 10:42:04] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[28-Mar-2011 10:50:00] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[28-Mar-2011 12:06:05] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[28-Mar-2011 12:18:22] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[28-Mar-2011 12:21:57] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[28-Mar-2011 13:49:11] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[28-Mar-2011 14:29:14] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[28-Mar-2011 15:20:15] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[28-Mar-2011 15:47:15] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[28-Mar-2011 15:47:16] PHP Fatal error:  Call to a member function add_current_page() on a non-object in /home/skinnu5/public_html/includes/application_top.php on line 351
+[28-Mar-2011 16:38:29] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[28-Mar-2011 17:56:47] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[28-Mar-2011 19:14:30] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[28-Mar-2011 19:22:41] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[28-Mar-2011 20:00:31] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[28-Mar-2011 20:31:58] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[28-Mar-2011 21:49:45] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[28-Mar-2011 22:14:49] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[28-Mar-2011 22:14:53] PHP Fatal error:  Call to a member function add_current_page() on a non-object in /home/skinnu5/public_html/includes/application_top.php on line 351
+[28-Mar-2011 23:08:25] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[28-Mar-2011 23:52:55] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[29-Mar-2011 00:26:29] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[29-Mar-2011 00:37:30] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[29-Mar-2011 01:42:22] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[29-Mar-2011 02:58:47] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[29-Mar-2011 02:58:54] PHP Fatal error:  Call to a member function add_current_page() on a non-object in /home/skinnu5/public_html/includes/application_top.php on line 351
+[29-Mar-2011 02:59:05] PHP Fatal error:  Call to a member function add_current_page() on a non-object in /home/skinnu5/public_html/includes/application_top.php on line 351
+[29-Mar-2011 02:59:13] PHP Fatal error:  Call to a member function add_current_page() on a non-object in /home/skinnu5/public_html/includes/application_top.php on line 351
+[29-Mar-2011 04:41:18] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[29-Mar-2011 04:41:19] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[29-Mar-2011 04:42:27] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[29-Mar-2011 04:43:57] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[29-Mar-2011 04:43:59] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[29-Mar-2011 04:44:21] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[29-Mar-2011 04:44:22] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[29-Mar-2011 04:44:57] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[29-Mar-2011 04:45:01] PHP Fatal error:  Call to a member function add_current_page() on a non-object in /home/skinnu5/public_html/includes/application_top.php on line 351
+[29-Mar-2011 07:07:42] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[29-Mar-2011 08:03:36] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[29-Mar-2011 09:49:29] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[29-Mar-2011 09:49:44] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[29-Mar-2011 10:13:40] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[29-Mar-2011 10:26:34] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[29-Mar-2011 10:26:44] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[29-Mar-2011 10:27:26] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[29-Mar-2011 10:27:30] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[29-Mar-2011 10:42:14] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[29-Mar-2011 11:07:50] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[29-Mar-2011 11:08:12] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[29-Mar-2011 11:08:33] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[29-Mar-2011 11:08:55] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[29-Mar-2011 11:09:16] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[29-Mar-2011 11:09:37] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[29-Mar-2011 11:09:58] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[29-Mar-2011 11:10:22] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[29-Mar-2011 11:10:44] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[29-Mar-2011 13:55:14] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[29-Mar-2011 14:27:46] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[29-Mar-2011 14:42:13] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[29-Mar-2011 15:40:45] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[29-Mar-2011 16:39:48] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[29-Mar-2011 17:31:13] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[29-Mar-2011 17:31:37] PHP Fatal error:  Call to a member function add_current_page() on a non-object in /home/skinnu5/public_html/includes/application_top.php on line 351
+[29-Mar-2011 17:42:25] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[29-Mar-2011 17:42:26] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[29-Mar-2011 17:48:21] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[29-Mar-2011 17:48:22] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[29-Mar-2011 20:28:50] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[29-Mar-2011 21:11:18] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[29-Mar-2011 21:43:13] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[29-Mar-2011 21:43:14] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[30-Mar-2011 00:05:04] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[30-Mar-2011 00:05:41] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[30-Mar-2011 00:31:13] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[30-Mar-2011 02:43:08] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[30-Mar-2011 02:49:17] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[30-Mar-2011 02:53:18] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[30-Mar-2011 05:05:31] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[30-Mar-2011 05:38:21] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[30-Mar-2011 05:45:04] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[30-Mar-2011 06:02:19] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[30-Mar-2011 06:24:39] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[30-Mar-2011 07:05:34] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[30-Mar-2011 07:43:15] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[30-Mar-2011 07:57:10] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[30-Mar-2011 09:02:27] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[30-Mar-2011 10:21:18] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[30-Mar-2011 10:41:29] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[30-Mar-2011 10:42:05] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[30-Mar-2011 11:09:32] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[30-Mar-2011 11:15:42] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[30-Mar-2011 11:15:58] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[30-Mar-2011 11:16:34] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[30-Mar-2011 11:30:25] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[30-Mar-2011 11:40:33] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[30-Mar-2011 12:59:03] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[30-Mar-2011 13:14:33] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[30-Mar-2011 13:14:50] PHP Fatal error:  Call to a member function add_current_page() on a non-object in /home/skinnu5/public_html/includes/application_top.php on line 351
+[30-Mar-2011 13:47:16] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[30-Mar-2011 14:17:10] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[30-Mar-2011 15:01:34] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[30-Mar-2011 15:02:10] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[30-Mar-2011 15:06:19] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[30-Mar-2011 15:35:29] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[30-Mar-2011 16:21:13] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[30-Mar-2011 17:08:23] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[30-Mar-2011 17:22:24] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[30-Mar-2011 17:25:45] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[30-Mar-2011 17:29:55] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[30-Mar-2011 17:53:49] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[30-Mar-2011 18:02:04] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[30-Mar-2011 18:32:50] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[30-Mar-2011 19:08:08] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[30-Mar-2011 20:09:18] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[30-Mar-2011 20:14:50] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[30-Mar-2011 20:18:10] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[30-Mar-2011 20:22:26] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[30-Mar-2011 21:11:34] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[30-Mar-2011 22:45:17] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[31-Mar-2011 00:21:34] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[31-Mar-2011 00:24:40] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[31-Mar-2011 00:27:55] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[31-Mar-2011 02:33:42] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[31-Mar-2011 02:34:11] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[31-Mar-2011 02:36:52] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[31-Mar-2011 02:36:55] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[31-Mar-2011 02:45:33] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[31-Mar-2011 05:01:42] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[31-Mar-2011 05:01:43] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[31-Mar-2011 06:24:02] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[31-Mar-2011 06:42:20] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[31-Mar-2011 06:42:22] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[31-Mar-2011 06:42:37] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[31-Mar-2011 06:42:40] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[31-Mar-2011 06:54:43] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[31-Mar-2011 06:55:40] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[31-Mar-2011 07:16:43] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[31-Mar-2011 07:22:20] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[31-Mar-2011 08:02:11] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[31-Mar-2011 08:11:14] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[31-Mar-2011 08:34:11] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[31-Mar-2011 08:50:09] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[31-Mar-2011 09:46:03] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[31-Mar-2011 10:03:11] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[31-Mar-2011 10:18:26] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[31-Mar-2011 10:42:22] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[31-Mar-2011 10:52:20] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[31-Mar-2011 10:52:25] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[31-Mar-2011 10:52:28] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[31-Mar-2011 10:55:45] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[31-Mar-2011 10:55:55] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[31-Mar-2011 11:01:49] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[31-Mar-2011 11:19:04] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[31-Mar-2011 11:47:40] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[31-Mar-2011 11:47:59] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[31-Mar-2011 11:48:02] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[31-Mar-2011 11:52:42] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[31-Mar-2011 11:52:43] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[31-Mar-2011 12:06:24] PHP Parse error:  syntax error, unexpected T_STRING in /home/skinnu5/public_html/news/wp-load.php on line 50
+[31-Mar-2011 12:16:47] PHP Parse error:  syntax error, unexpected '<' in /home/skinnu5/public_html/news/wp-config.php on line 76
+[31-Mar-2011 13:25:38] PHP Parse error:  syntax error, unexpected '<' in /home/skinnu5/public_html/news/wp-includes/version.php on line 46
+[31-Mar-2011 20:26:26] PHP Parse error:  syntax error, unexpected '<' in /home/skinnu5/public_html/news/wp-includes/compat.php on line 170
+[31-Mar-2011 20:27:53] PHP Parse error:  syntax error, unexpected '<' in /home/skinnu5/public_html/news/wp-includes/compat.php on line 170
+[31-Mar-2011 20:29:47] PHP Parse error:  syntax error, unexpected '<' in /home/skinnu5/public_html/news/wp-includes/compat.php on line 170
+[31-Mar-2011 20:57:41] PHP Parse error:  syntax error, unexpected T_VAR in /home/skinnu5/public_html/news/wp-content/plugins/twitter-widget-pro/wp-twitter-widget.php on line 499
+[31-Mar-2011 20:58:45] PHP Parse error:  syntax error, unexpected T_VAR in /home/skinnu5/public_html/news/wp-content/plugins/twitter-widget-pro/wp-twitter-widget.php on line 499
+[31-Mar-2011 14:41:07] PHP Fatal error:  Call to a member function add_current_page() on a non-object in /home/skinnu5/public_html/includes/application_top.php on line 351
+[31-Mar-2011 14:41:09] PHP Fatal error:  Call to a member function add_current_page() on a non-object in /home/skinnu5/public_html/includes/application_top.php on line 351
+[31-Mar-2011 14:41:09] PHP Fatal error:  Call to a member function add_current_page() on a non-object in /home/skinnu5/public_html/includes/application_top.php on line 351
+[31-Mar-2011 14:41:19] PHP Fatal error:  Call to a member function add_current_page() on a non-object in /home/skinnu5/public_html/includes/application_top.php on line 351
+[31-Mar-2011 14:41:41] PHP Fatal error:  Call to a member function add_current_page() on a non-object in /home/skinnu5/public_html/includes/application_top.php on line 351
+[31-Mar-2011 14:42:58] PHP Fatal error:  Call to a member function add_current_page() on a non-object in /home/skinnu5/public_html/includes/application_top.php on line 351
+[31-Mar-2011 14:43:00] PHP Fatal error:  Call to a member function add_current_page() on a non-object in /home/skinnu5/public_html/includes/application_top.php on line 351
+[31-Mar-2011 14:43:08] PHP Fatal error:  Call to a member function add_current_page() on a non-object in /home/skinnu5/public_html/includes/application_top.php on line 351

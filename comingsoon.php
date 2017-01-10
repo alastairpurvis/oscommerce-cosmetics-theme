@@ -1,0 +1,1 @@
+<br><center><img src="images/logo.gif" /><br><br><Span style="font-family: arial"><b>Asia Pacific site</b> coming soon.</span></center>
